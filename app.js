@@ -23,5 +23,5 @@ function copyDivToClipboard(){
     window.getSelection().addRange(range);
     document.execCommand("copy");
     window.getSelection().removeAllRanges();//to  deselcted
-    alert("Copied the text:")
+    alert("Copied the tet:")
 }
